@@ -16,20 +16,28 @@
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
   <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-  crossorigin="anonymous">
-
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-  <p>ようこそ<span id="name">テスト</span></p>
-  <p>あなたの運勢は<span id="result">大吉</span>です！</p>
+  <h1>おみくじ</h1>
 
-  <img src="omikuji.png" >
+  <div class="main1">
+    <p>ようこそ<span id="name"></span>さん!</p>
+  </div>
+
+  <div class="main2">
+    <p>あなたの運勢は...<span id="result"></span>です！</p>
+  </div>
+
+  <div>
+    <img src="omikuji.png" >
+  </div>
+
+  <div = class="button">
+    <button class="omikuji_button" onclick="touchedButton()">おみくじを引く</button>
+  </div>
 
 <script src="index.js"></script>
 
