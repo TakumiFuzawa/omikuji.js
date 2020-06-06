@@ -1,5 +1,13 @@
+h1 {
+    text-align: center;
+}
+
 img {
     height: 100px;
+}
+
+body {
+    background-color: greenyellow;
 }
 
 #name {
@@ -7,5 +15,41 @@ img {
 }
 
 #result {
-    color: green;
+    color: red;
+}
+
+.main1 p {
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
+}
+
+.main2 p {
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
+}
+
+div {
+    text-align: center;
+}
+
+.omikuji_button {
+    text-align: center;
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    background-color: #ffa300;
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 24px;
+    border-radius: 4px;
+    border-bottom: 4px solid #d37800;
+}
+
+.omikuji_button:active {
+    transform: translateY(4px);
+    border-bottom: none;
 }
